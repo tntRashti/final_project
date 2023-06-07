@@ -38,27 +38,27 @@ WIZARD_OFFSET= [112, 107]
 WIZARD_DATA = [WIZARD_SIZE, WIZARD_SCALE, WIZARD_OFFSET]
 
 #load muzic and sounds
-pygame.mixer.music.load("C:\\Users\\יהונתן\\Desktop\\finel_project\\modern-war-129016.mp3")
+pygame.mixer.music.load("modern-war-129016.mp3")
 pygame.mixer.music.set_volume(0.35)
 pygame.mixer.music.play(-1, 0.0, 5000)
 
 #The warrior attack sound
-sword_fx = pygame.mixer.Sound("C:\\Users\\יהונתן\\Desktop\\finel_project\\sword.wav")
+sword_fx = pygame.mixer.Sound("sword.wav")
 sword_fx.set_volume(0.45)
 #The wizard attack sound
-magic_fx = pygame.mixer.Sound("C:\\Users\\יהונתן\\Desktop\\finel_project\\magic.wav")
+magic_fx = pygame.mixer.Sound("magic.wav")
 magic_fx.set_volume(0.75)
 
 
 
 
 #Backgrouns 
-bg_image = pygame.image.load("C:\\Users\\יהונתן\\Desktop\\finel_project\\backround.jpg")
+bg_image = pygame.image.load("backround.jpg")
 """ this part inculeded all the images of the charakters in the game"""
-warrior_sheet = pygame.image.load("C:\\Users\\יהונתן\\Desktop\\finel_project\\warrior.png")
-wizard_sheet = pygame.image.load("C:\\Users\\יהונתן\\Desktop\\finel_project\\wizard.png")
+warrior_sheet = pygame.image.load("warrior.png")
+wizard_sheet = pygame.image.load("wizard.png")
 
-victory_img = pygame.image.load("C:\\Users\\יהונתן\\Desktop\\finel_project\\victory.png")
+victory_img = pygame.image.load("victory.png")
 
 
 
@@ -67,8 +67,8 @@ WIZARD_ANIMATION_STEPS = [8, 8, 1, 8, 8, 3, 7]
 
 
 
-count_font = pygame.font.Font("C:\\Users\\יהונתן\\Desktop\\finel_project\\turok (1).ttf", 160)
-score_font = pygame.font.Font("C:\\Users\\יהונתן\\Desktop\\finel_project\\turok (1).ttf", 30)
+count_font = pygame.font.Font("turok (1).ttf", 160)
+score_font = pygame.font.Font("turok (1).ttf", 30)
 
 
 def draw_text(text, font, text_col, x, y):
